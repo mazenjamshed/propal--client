@@ -1,7 +1,12 @@
-import './navbar.styles.scss';
+import { Nav } from './navbar.styled';
 
 const Navbar = () => {
-  return <div className='navbar'>Navbar here</div>;
+  return (
+    <Nav>
+      <h2>Logo Here</h2>
+      <h2>Button here</h2>
+    </Nav>
+  );
 };
 
 export default Navbar;
