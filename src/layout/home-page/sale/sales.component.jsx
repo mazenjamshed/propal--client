@@ -1,7 +1,8 @@
-import PropertyCard from '../../components/property-card/propertycard.component';
-import { SectionHeading } from '../../styles/typograpghy.styled';
-import { Container } from '../../styles/utils.styled';
+import PropertyCard from './../../../components/property-card/propertycard.component';
+import { SectionHeading } from './../../../styles/typograpghy.styled';
+import { Container } from './../../../styles/utils.styled';
 import { SalesSection } from './sales.styled';
+
 const Sales = () => {
   return (
     <SalesSection>

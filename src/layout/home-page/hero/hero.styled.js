@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import bg from './../../assets/img/hero_bg.jpg';
+import bg from './../../../assets/img/hero_bg.jpg';
 
 export const HeroContainer = styled.div`
   background-image: url(${bg});
