@@ -1,3 +1,4 @@
+import Button from '../button/button.component';
 import {
   Bar,
   Box,
@@ -43,7 +44,17 @@ const PropertyCard = () => {
           cupiditate
         </Description>
 
-        <h2 style={{ color: 'black', paddingTop: 30 }}>Button Here</h2>
+        <h2
+          style={{
+            color: 'black',
+            paddingTop: 30,
+            float: 'right',
+            marginRight: '3rem',
+            marginBottom: '1.5rem',
+          }}
+        >
+          <Button />
+        </h2>
       </Content>
     </Card>
   );

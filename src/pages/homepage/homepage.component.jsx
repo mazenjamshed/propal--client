@@ -1,3 +1,4 @@
+import Footer from '../../layout/footer/footer.component';
 import Contactors from '../../layout/home-page/contractors/contractors.component';
 import Hero from '../../layout/home-page/hero/hero.component';
 import HotArea from '../../layout/home-page/hot-area/hotarea.component';
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Rent />
       <Contactors />
       <HotArea />
+      <Footer />
     </div>
   );
 };

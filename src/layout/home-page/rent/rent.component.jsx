@@ -1,6 +1,6 @@
 import PropertyCard from './../../../components/property-card/propertycard.component';
 import { SectionHeading } from './../../../styles/typograpghy.styled';
-import { Container } from './../../../styles/utils.styled';
+import { Container, FlexColumn } from './../../../styles/utils.styled';
 import { RentSection } from './rent.styled';
 
 const Rent = () => {
@@ -8,8 +8,10 @@ const Rent = () => {
     <RentSection>
       <Container>
         <SectionHeading>Recent Property for Rent</SectionHeading>
-        <PropertyCard />
-        <PropertyCard />
+        <FlexColumn>
+          <PropertyCard />
+          <PropertyCard />
+        </FlexColumn>
       </Container>
     </RentSection>
   );
